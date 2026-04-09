@@ -170,6 +170,7 @@ nav {
   width: 100vw;
 
   z-index: 100;
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* Adicione esta linha */
 }
 
 nav .wrapper {
@@ -180,6 +181,7 @@ nav .wrapper {
 
 nav.scroll {
   background: var(--primary-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 nav button {
